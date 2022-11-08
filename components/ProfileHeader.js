@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
     flex: 1,
     marginRight: 259,
     marginLeft: 9,
-    marginTop: 13,
   },
 });
 

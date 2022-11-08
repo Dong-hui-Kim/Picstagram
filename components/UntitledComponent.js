@@ -25,6 +25,7 @@ function UntitledComponent(props) {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
+    backgroundColor: 'white',
   },
   likeButton: {
     width: 60,

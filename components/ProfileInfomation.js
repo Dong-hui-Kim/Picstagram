@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   group: {
     width: 122,
     height: 63,
-    marginLeft: 80,
+    marginLeft: 100,
   },
   follower: {
     width: 42,

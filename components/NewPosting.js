@@ -20,9 +20,13 @@ function NewPosting(props) {
 const styles = StyleSheet.create({
   container: {},
   newPostingButton: {
-    backgroundColor: 'rgba(155,155,155,1)',
+    backgroundColor: 'white',
     flexDirection: 'row',
     flex: 1,
+    borderWidth: 3,
+    borderRadius: 15,
+    borderColor: 'lightgray',
+    borderStyle: 'dashed',
   },
   newPostingIcon: {
     color: 'rgba(0,0,0,1)',

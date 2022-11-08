@@ -12,7 +12,7 @@ function HeaderMain(props) {
           <FeatherIcon name="plus" style={styles.addPostIcon} />
         </TouchableOpacity>
         <TouchableOpacity style={styles.searchButton}>
-          <EvilIconsIcon name="search" style={styles.searchIcon} />
+          <FeatherIcon name="search" style={styles.searchIcon} />
         </TouchableOpacity>
       </View>
     </View>
@@ -39,14 +39,13 @@ const styles = StyleSheet.create({
     fontFamily: 'roboto-700',
     color: 'rgba(255,255,255,1)',
     fontSize: 20,
-    marginTop: 3,
   },
   addPostButton: {
     width: 30,
     height: 30,
     justifyContent: 'center',
-    marginLeft: 154,
-    marginTop: 1,
+    marginLeft: 190,
+    alignSelf: 'center',
   },
   addPostIcon: {
     color: 'rgba(255,255,255,1)',
@@ -58,16 +57,18 @@ const styles = StyleSheet.create({
     height: 33,
     justifyContent: 'center',
     marginLeft: 10,
+    alignSelf: 'center',
   },
   searchIcon: {
     color: 'rgba(255,255,255,1)',
-    fontSize: 30,
+    fontSize: 24,
     alignSelf: 'center',
   },
   picstagramRow: {
     height: 33,
     flexDirection: 'row',
     flex: 1,
+    justifyContent: 'space-between',
     marginRight: 11,
     marginLeft: 20,
     marginTop: 12,

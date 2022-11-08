@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     height: 30,
     width: 30,
     justifyContent: 'center',
-    marginLeft: 143,
+    marginLeft: 190,
   },
   lockIcon: {
     color: 'rgba(0,0,0,1)',

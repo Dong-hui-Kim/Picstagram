@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     height: 368,
   },
   postFooter: {
-    height: 33,
-    marginTop: 6,
+    height: 40,
+    alignItems: 'center',
   },
 });
 

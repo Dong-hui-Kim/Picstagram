@@ -30,7 +30,6 @@ const styles = StyleSheet.create({
     color: 'rgba(255,255,255,1)',
     fontSize: 20,
     marginLeft: 20,
-    marginTop: 16,
   },
 });
 

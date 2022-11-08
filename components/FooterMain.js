@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, View, TouchableOpacity} from 'react-native';
+import {StyleSheet, View, Text, TouchableOpacity} from 'react-native';
 import EntypoIcon from 'react-native-vector-icons/Entypo';
 
 function FooterMain(props) {
@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 1.2,
     elevation: 3,
+    justifyContent: 'center',
   },
   group: {
     width: 360,
@@ -47,7 +48,6 @@ const styles = StyleSheet.create({
   homeIcon: {
     color: 'rgba(0,0,0,1)',
     fontSize: 40,
-    flex: 0.03,
     alignSelf: 'center',
   },
   cameraButton: {
@@ -57,7 +57,6 @@ const styles = StyleSheet.create({
   cameraIcon: {
     color: 'rgba(0,0,0,1)',
     fontSize: 40,
-    flex: 0.04,
     alignSelf: 'center',
   },
   profileButton: {
@@ -66,7 +65,6 @@ const styles = StyleSheet.create({
   myProfileIcon: {
     color: 'rgba(0,0,0,1)',
     fontSize: 40,
-    flex: 0.04,
     marginTop: 7,
     alignSelf: 'center',
   },
